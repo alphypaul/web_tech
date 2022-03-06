@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+<head>       
+<title>Fruits Types</title>
+<head>
+<body>
+ <form action=fruit.php method=get>
+<h3> Select some Fruits names to create an array</h3>
+<select name=fruits[] size=10 multiple required >
+<option value=Apple selected> Apple</option>
+<option value=Mango> Mango</option>
+<option value=Banana> Banana</option>
+<option value=Grapes >Grapes</option>
+<option value=cherry>Cherry</option>
+<option value=Bean>Bean</option>
+<option value=pea> Pea</option>
+<option value=coconut> Coconut</option>
+<option value=raspberry>Raspberry</option>
+<option value=breadfruit> Breadfruit</option>
+<option value=pineapple> Pineapple</option>
+<option value=mulberry> Mulberry</option>
+</select>
+<h3> select any operation</h3>
+<select name=select >
+<option value=sort >Sort array</option>
+<option value=rsort>Reverse sort</option>
+<option value=search >Search element</option> </select><br>
+For search operation enter the value to be searched: <input type=text name="key"><br>
+<br><br>
+<br>
+<input type=submit name=submit value = "Submit Your Array" >
+</form>
+ </body>
+</html>

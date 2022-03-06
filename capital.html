@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+Choose a country:
+ 	<select  id="co" onchange="getCapital()">
+<option value="">--select--</option>
+   	<option value="New Delhi">India</option>
+   	<option value="Colombo">Sri Lanka</option>
+   	<option value="Dhaka">Bangladesh</option>
+   	<option value="Kathmandu">Nepal</option>
+ 	</select>
+<br><br>
+capital: <input type = "text" id="cap">
+ <script>
+function getCapital()
+{
+var capital = document.getElementById("co").value;
+document.getElementById("cap").value=capital;
+}
+</script>
+</body>
+</html>
